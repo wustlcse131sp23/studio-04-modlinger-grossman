@@ -1,14 +1,14 @@
 package studio4;
 
+import java.awt.Color;
+
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
 import edu.princeton.cs.introcs.StdDraw;
 import support.cse131.DialogBoxes;
 
-/**
- * @author Dennis Cosgrove (http://www.cse.wustl.edu/~cosgroved/)
- */
+
 public class NorwayMotherOfAllFlags {
 	private static void mother() {
 		StdDraw.clear();
@@ -29,8 +29,14 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void france() {
+		StdDraw.clear();
+		StdDraw.setXscale(0, 22);
+		StdDraw.setYscale(0, 16);
+		StdDraw.setPenColor(Color.BLUE);
+		StdDraw.filledRectangle(22/6, 16/2, 22/6, 8);
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(5*22/6, 16/2, 22/6, 8);
 		
-		// TODO
 	}
 
 	public static void indonesia() {
